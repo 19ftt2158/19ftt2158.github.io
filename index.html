@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600";></link>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+		<meta charset="utf-8">
+		<style>
+
+
+		  h1, h2{
+				color:#00B2FA;
+			}
+
+			p{
+				color:white;
+			}
+
+			#gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: minmax(100px, auto);
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+			#gridcontainer > * {
+
+				grid-template areas:
+
+				"pic pic pic pic"
+				"name name name name"
+			}
+
+		</style>
+		<title>Human Resources</title>
+  </head>
+    <body>
+      <header>
+      <div id="container">
+        <nav>   <!-- Navigation bar -->
+        <ul>
+					<li><img src="pblogo.jpg" /></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="AboutUs.html">About us</a></li>
+          <li><a href="ContactUs.html">Contact us</a></li>
+          <li></li>
+          <li>Politeknik Brunei Human Resource Department</li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+	<!--  <img src="index.jpg" align="right"/> -->
+  <!-- page wrapper -->
+    <div class="page-wrapper"> </div>
+			<h1 align="center">Introduction</h1>
+
+			<p>The Human Resource Department of Politeknik Brunei manages people with the right resources. The main aim of the Human Resource Department is to effectively and systematically manage human resource development in facilitating quality education. Politeknik Brunei has a population of 116 officers and staffs, which comprises of 56 administration staffs and 60 lecturers. Politeknik Brunei regards each officer and staff as a valuable asset towards achieving its vision and mission as well as its five years strategic plans.</p>
+
+
+
+			<h1 align="center">Our members</h1>
+			<div id="gridcontainer">
+							<pic><img src="HRD01.jpg" width="50%" height="50%" /></pic>
+							<name><p>Laila binti Johari <br> (Acting head of department)</p></name>
+					<pic><img src="HRD02.jpg" width="50%" height="50%"/></pic>
+						  <name><p>Ak. Mohamamad Zulkhairin bin Pg. Hj Yusof</p></name>
+
+					<pic><img src="HRD03.jpg" width="50%" height="50%"/></pic>
+						  <name><p>Masdiana binti Haji Masri</p></name>
+
+					<pic><img src="HRD04.jpg" width="50%" height="50%"/></pic>
+						  <name><p>Nur Asyiqin Rabiatutadawiyah binti Haji Syafien</p></name>
+
+			</div>
+
+  <footer> <!-- footer -->
+    <div class="footer" align="center">
+          <ol>
+          <li><h2>__________________________________<br />
+            Copyright © 2020 Politeknik Brunei</h2></li>
+          </ol>
+        </div>
+
+
+</div>
+  </footer>
+
+    </body>
+    </html>
